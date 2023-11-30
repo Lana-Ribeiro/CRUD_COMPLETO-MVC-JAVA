@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Exclusão Departamento</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="configura.css">
+    </head>
+    <body>
+       <form method="get" action="ControleDepartamento">
+            <input type="hidden" name="flag" value="exc_dep">
+            
+              <!--cadastrando ID-->
+            <p>
+                <label for="id">Id:*</label>
+                <input id="id" type="text" name="id" size="10" maxlength="10" required>
+            </p>
+                   
+            <!--Excluir-->
+            <p>
+                <input type="submit" value="Excluir">
+            </p>            
+        </form>
+    </body>
+</html>
